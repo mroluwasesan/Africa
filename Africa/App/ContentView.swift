@@ -9,16 +9,25 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        // MARK: - PROPERTIES
+        
+        // MARK: - BODY
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Content")
+            NavigationView{
+                List{
+                    CoverImageView()
+                        .frame(height: 300)
+                        .listRowInsets(EdgeInsets(top: 0, leading: 0, bottom: 0, trailing: 0))
+                }//: List
+                .navigationBarTitle("Africa",displayMode: .large)
+            }//: NAVIGATION
+            
         }
         .padding()
     }
 }
 
+// MARK: - PREVIEW
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()

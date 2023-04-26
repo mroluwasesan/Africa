@@ -169,16 +169,7 @@
 		CED0F1E729F22FB800DE675D = {
 			isa = PBXGroup;
 			children = (
-				CE7BA9C429F99F110009F5FA /* Modifier */,
-				CE73B1E329F44AB6000658A7 /* Helper */,
-				CED0F22F29F3341000DE675D /* Extension */,
-				CED0F22C29F3328B00DE675D /* Model */,
-				CED0F22029F2E46A00DE675D /* App */,
-				CED0F22929F323A300DE675D /* View */,
-				CED0F21629F2E26800DE675D /* Data */,
-				CED0F20129F2E1F300DE675D /* Video */,
 				CED0F1F229F22FB900DE675D /* Africa */,
-				CE7BA9B729F99A6B0009F5FA /* Stickers */,
 				CED0F1F129F22FB900DE675D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,10 +186,19 @@
 		CED0F1F229F22FB900DE675D /* Africa */ = {
 			isa = PBXGroup;
 			children = (
+				CED0F22029F2E46A00DE675D /* App */,
+				CED0F21629F2E26800DE675D /* Data */,
+				CE73B1E329F44AB6000658A7 /* Helper */,
+				CED0F22929F323A300DE675D /* View */,
+				CE7BA9C429F99F110009F5FA /* Modifier */,
+				CED0F20129F2E1F300DE675D /* Video */,
+				CED0F22F29F3341000DE675D /* Extension */,
+				CE7BA9B729F99A6B0009F5FA /* Stickers */,
+				CED0F1F929F22FBB00DE675D /* Preview Content */,
+				CED0F22C29F3328B00DE675D /* Model */,
 				CE7BA9C729F9A0CF0009F5FA /* Africa.entitlements */,
 				CED0F21F29F2E3B300DE675D /* Info.plist */,
 				CED0F1F729F22FBB00DE675D /* Assets.xcassets */,
-				CED0F1F929F22FBB00DE675D /* Preview Content */,
 			);
 			path = Africa;
 			sourceTree = "<group>";
